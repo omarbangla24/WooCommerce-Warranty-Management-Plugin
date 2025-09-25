@@ -1,0 +1,14 @@
+
+/* Minimal jQuery UI-like datepicker skin */
+.ui-datepicker { background:#fff; border:1px solid #dcdcdc; border-radius:8px; padding:8px; box-shadow:0 6px 16px rgba(0,0,0,.08); z-index: 999999 !important; }
+.ui-datepicker-header { font-weight:600; padding:6px 0; text-align:center; background:#f7f7f7; border-bottom:1px solid #eee; border-radius:6px 6px 0 0; }
+.ui-datepicker-title { margin:0; }
+.ui-datepicker-prev, .ui-datepicker-next { cursor:pointer; float:left; width:24px; height:24px; line-height:24px; text-align:center; border-radius:4px; }
+.ui-datepicker-next { float:right; }
+.ui-datepicker-calendar { width:100%; border-collapse:collapse; margin-top:6px; }
+.ui-datepicker-calendar th { font-size:12px; color:#666; padding:6px; }
+.ui-datepicker-calendar td { padding:4px; text-align:center; }
+.ui-datepicker-calendar a { display:block; padding:6px; border-radius:6px; text-decoration:none; color:#222; }
+.ui-datepicker-calendar .ui-state-active { background:#2271b1; color:#fff; }
+.ui-datepicker-calendar .ui-state-hover { background:#e6f0f9; }
+input.wvs-datepick { max-width: 220px; }
